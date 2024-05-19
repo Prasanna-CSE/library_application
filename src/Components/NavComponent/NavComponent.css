@@ -1,0 +1,30 @@
+.navigation-container {
+    background-color: #f8f9fa; /* Light background color */
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    align:center
+  }
+  
+  .navigation-list {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navigation-item {
+    margin-right: 20px;
+  }
+  
+  .navigation-link {
+    text-decoration: none;
+    color: #007bff; /* Blue color for links */
+    font-weight: bold;
+    transition: color 0.3s;
+    align-items: center;
+  }
+  
+  .navigation-link:hover {
+    color: #0056b3; /* Darker blue on hover */
+  }
+  
